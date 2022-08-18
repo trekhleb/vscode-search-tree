@@ -10,9 +10,9 @@ See the https://github.com/microsoft/vscode/issues/20224 issue that is opened fo
 
 Let me quote some folks:
 
-> *"holy sh❋t, how can this still be missing after 5 years... back to eclipse it is"* - *fm-swe* [[1](https://github.com/microsoft/vscode/issues/20224)]
+> *"holy sh❋t, how can this still be missing after 5 years... back to eclipse it is"* - fm-swe [[1](https://github.com/microsoft/vscode/issues/20224)]
   
-> *"Unfortunately no."* - *leo-diehl* [[2](https://stackoverflow.com/questions/54133206/any-way-to-view-vscode-find-in-files-results-organized-by-folder-hierarchy)]
+> *"Unfortunately no."* - leo-diehl [[2](https://stackoverflow.com/questions/54133206/any-way-to-view-vscode-find-in-files-results-organized-by-folder-hierarchy)]
 
 ## Suggestion
 
