@@ -1,0 +1,83 @@
+{
+  "name": "search-tree",
+  "displayName": "search-tree",
+  "description": "Show search results in a tree structure",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onView:searchTreeResults",
+    "onCommand:searchTree.search"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "searchTree",
+          "title": "Search Tree",
+          "icon": "resources/search-tree.svg"
+        }
+      ]
+    },
+    "views": {
+      "searchTree": [
+        {
+          "id": "searchTreeResults",
+          "name": "Results"
+        }
+      ]
+    },
+    "viewsWelcome": [
+      {
+        "view": "searchTreeResults",
+        "contents": "Tree search results will be available here"
+      }
+    ],
+    "commands": [
+      {
+        "command": "searchTree.search",
+        "title": "Search Tree: Search",
+        "icon": {
+          "light": "resources/search-tree.svg",
+          "dark": "resources/search-tree.svg"
+        }
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "searchTree.search",
+        "key": "ctrl+shift+f",
+        "mac": "ctrl+shift+f"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.69.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "@vscode/test-electron": "^2.1.5",
+    "eslint": "^8.18.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "fast-find-in-files": "^0.1.1"
+  }
+}
