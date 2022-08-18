@@ -24,34 +24,34 @@ The code is super-raw, not optimized and not tested. Basically it is not ready t
 
 However, here is what was done currently:
 
-[x] Custom "Search Tree" view container in a side-bar
-[x] Custom command via `Cmd+Shift+P`: "Search Tree: Search"
-[x] Custom Input dialog for the search query
-[x] Custom hotkey: `Ctrl+Shift+F`
-[x] Custom search engine: via [fast-find-in-files](https://www.npmjs.com/package/fast-find-in-files) package
-[x] [Tree view provider](https://code.visualstudio.com/api/extension-guides/tree-view) was used
+- [x] Custom "Search Tree" view container in a side-bar
+- [x] Custom command via `Cmd+Shift+P`: "Search Tree: Search"
+- [x] Custom Input dialog for the search query
+- [x] Custom hotkey: `Ctrl+Shift+F`
+- [x] Custom search engine: via [fast-find-in-files](https://www.npmjs.com/package/fast-find-in-files) package
+- [x] [Tree view provider](https://code.visualstudio.com/api/extension-guides/tree-view) was used
     - Custom folder icons
     - Custom numbers (of search results)
     - "Native" file icons via 
     - "Native" in-place search in the tree (just start typing while in the Search Tree panel)
-[x] Open the file line in the code browser
-[x] Auto-scroll to and auto-highlight the found text
+- [x] Open the file line in the code browser
+- [x] Auto-scroll to and auto-highlight the found text
 
 ## Implementation issues
 
-[] Not possible (or at least not documented): attach input field to the [TreeView](https://code.visualstudio.com/api/extension-guides/tree-view)
-[] Not possible (or at least not documented): attach a custom view to the Search [view container](https://code.visualstudio.com/api/references/contribution-points#contributes.views)
-[] Not possible (or at least not documented): re-use the VSCode Search [API](https://code.visualstudio.com/api/references/vscode-api)
+- [] Not possible (or at least not documented): attach input field to the [TreeView](https://code.visualstudio.com/api/extension-guides/tree-view)
+- [] Not possible (or at least not documented): attach a custom view to the Search [view container](https://code.visualstudio.com/api/references/contribution-points#contributes.views)
+- [] Not possible (or at least not documented): re-use the VSCode Search [API](https://code.visualstudio.com/api/references/vscode-api)
 
 ## @TODO
 
-[] Make the Search Tree to be a part of Search view container
-[] Auto-focus on the Search Tree view when pressing `Ctrl+Shift+F`
-[] In-place (non-popup) input field
-[] Collapse/Expand all
-[] Light/Dark mode icons
-[] Search in specific folders (via regexp)
-[] Search in specific files (via regexp)
+- [] Make the Search Tree to be a part of Search view container
+- [] Auto-focus on the Search Tree view when pressing `Ctrl+Shift+F`
+- [] In-place (non-popup) input field
+- [] Collapse/Expand all
+- [] Light/Dark mode icons
+- [] Search in specific folders (via regexp)
+- [] Search in specific files (via regexp)
 
 ## Docs
 
