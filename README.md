@@ -34,6 +34,12 @@ However, here is what was done currently:
 - [x] Open the file line in the code browser
 - [x] Auto-scroll to and auto-highlight the found text
 
+Compare the search results in a flat structure (the left )
+
+| Search results as a List    | Search results as a Tree    |
+| --- | --- |
+| ![](./assets/search-flat.png) | ![](./assets/search-tree.png) |
+
 ## Implementation issues
 
 It is not clear (not possible, or at least not documented) how to do the following:
