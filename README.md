@@ -51,6 +51,7 @@ It is not clear (not possible, or at least not documented) how to do the followi
 - [ ] Light/Dark mode icons
 - [ ] Search in specific folders (via regexp)
 - [ ] Search in specific files (via regexp)
+- [ ] Optimize search engine for large amount of files
 
 ## Developing
 
