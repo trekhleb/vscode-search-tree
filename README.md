@@ -1,14 +1,18 @@
 # vscode-search-tree
 
-> 🔎 (Draft!) VSCode extension to show the search results in a tree view
+> 🔎 **(Draft!)** VSCode extension to show the search results in a tree view
 
-# Issue
+## Issue
 
 Currently, the search results in VSCode cannot be grouped in a Tree View structure.
 
-See the https://github.com/microsoft/vscode/issues/20224 issue that is opened for 5+ years now.
+> See the https://github.com/microsoft/vscode/issues/20224 issue that is opened for *5+* years now.
 
-## What was done
+## Suggestion
+
+Add a possibility to show search results in a tree view, for faster information lookup.
+
+## What was currently done
 
 - Custom "Search Tree" view container in a side-bar
 - Custom command: via Cmd+Shift+P: "Search Tree: Search"
