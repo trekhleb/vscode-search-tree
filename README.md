@@ -2,11 +2,11 @@
 
 🔎 **(Draft!)** VSCode extension to show the search results in a tree view
 
+> The work on this extension is on-pause for now since VSCode team has put the [#20224](https://github.com/microsoft/vscode/issues/20224) issue into their *Aug-2022 iteration* [#157454](https://github.com/microsoft/vscode/issues/157454) to "Explore showing search results as a tree view". If this will be done in a VSCode core - it would be ideal solution and this extension won't be needed.
+
 ## Issue
 
-Currently, the search results in VSCode cannot be grouped in a Tree View structure.
-
-See the https://github.com/microsoft/vscode/issues/20224 issue that is opened for *5+* years now.
+Currently, the search results in VSCode cannot be grouped in a Tree View structure (see https://github.com/microsoft/vscode/issues/20224).
 
 Let me quote some folks:
 
@@ -16,38 +16,43 @@ Let me quote some folks:
 
 ## Suggestion
 
-Add a possibility to show search results in a tree view, for faster information lookup.
+Add a possibility to show search results in a tree view, for faster and less overwhelming information lookup.
 
-## What was currently done
+## Current state of the plugin
 
-- Custom "Search Tree" view container in a side-bar
-- Custom command: via Cmd+Shift+P: "Search Tree: Search"
-- Custom Input dialog for the search query
-- Custom hotkey: Ctrl+Shift+F
-- Custom search engine: via https://www.npmjs.com/package/fast-find-in-files
-- Tree view provider: https://code.visualstudio.com/api/extension-guides/tree-view
+The code is super-raw, not optimized and not tested. Basically it is not ready to be published as of now. 
+
+However, here is what was done currently:
+
+[x] Custom "Search Tree" view container in a side-bar
+[x] Custom command via `Cmd+Shift+P`: "Search Tree: Search"
+[x] Custom Input dialog for the search query
+[x] Custom hotkey: `Ctrl+Shift+F`
+[x] Custom search engine: via [fast-find-in-files](https://www.npmjs.com/package/fast-find-in-files) package
+[x] [Tree view provider](https://code.visualstudio.com/api/extension-guides/tree-view) was used
     - Custom folder icons
     - Custom numbers (of search results)
     - "Native" file icons via 
     - "Native" in-place search in the tree (just start typing while in the Search Tree panel)
-- Open the file line in the code browser
-- Auto-scroll to and auto-highlight the found text
+[x] Open the file line in the code browser
+[x] Auto-scroll to and auto-highlight the found text
 
-## Implementation Issues
+## Implementation issues
 
-- Not possible (at least not documented): attach input field to the TreeView (https://code.visualstudio.com/api/extension-guides/tree-view)
-- Not possible (at least not documented): attach a custom view to the Search view container (https://code.visualstudio.com/api/references/contribution-points#contributes.views)
-- Not possible (at least not documented): re-use the Search API (https://code.visualstudio.com/api/references/vscode-api)
+[] Not possible (or at least not documented): attach input field to the [TreeView](https://code.visualstudio.com/api/extension-guides/tree-view)
+[] Not possible (or at least not documented): attach a custom view to the Search [view container](https://code.visualstudio.com/api/references/contribution-points#contributes.views)
+[] Not possible (or at least not documented): re-use the VSCode Search [API](https://code.visualstudio.com/api/references/vscode-api)
 
 ## @TODO
 
-- Make the Search Tree to be a part of Search view container
-- Auto-focus on the Search Tree view when Ctrl+Shift+F 
-- In-place (non-popup) input field
-- Collapse/Expand all
-- Light/Dark mode icons
-- Search in specific folders (via regexp)
-- Search in specific files (via regexp)
-- Auto-highlight the search phrase in the search result line
+[] Make the Search Tree to be a part of Search view container
+[] Auto-focus on the Search Tree view when pressing `Ctrl+Shift+F`
+[] In-place (non-popup) input field
+[] Collapse/Expand all
+[] Light/Dark mode icons
+[] Search in specific folders (via regexp)
+[] Search in specific files (via regexp)
 
-Docs: https://code.visualstudio.com/api
+## Docs
+
+- [VSCode Extension API](https://code.visualstudio.com/api)
