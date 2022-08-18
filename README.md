@@ -42,7 +42,7 @@ It is not clear (not possible, or at least not documented) how to do the followi
 - [ ] Attach a custom view to the Search [view container](https://code.visualstudio.com/api/references/contribution-points#contributes.views)
 - [ ] Re-use the VSCode Search [API](https://code.visualstudio.com/api/references/vscode-api)
 
-## TODO
+## ToDo
 
 - [ ] Make the Search Tree to be a part of Search view container
 - [ ] Auto-focus on the Search Tree view when pressing `Ctrl+Shift+F`
@@ -58,6 +58,12 @@ Install dependencies
 
 ```
 npm install
+```
+
+Run the extension in the development mode in VSCode
+
+```
+"Run and Debug" → "Run Extension"
 ```
 
 ## Docs
