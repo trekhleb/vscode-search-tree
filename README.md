@@ -21,7 +21,9 @@ Add a possibility to show search results in a tree view, for faster and less ove
 
 The code is super-raw, not optimized and not tested. Basically it is not ready to be published as of now. 
 
-However, here is what was done currently:
+However, here is what was done currently
+
+![Extension demo](./assets/demo-01.gif)
 
 - [x] Custom "Search Tree" view container in a side-bar
 - [x] Custom command via `Cmd+Shift+P`: "Search Tree: Search"
@@ -34,11 +36,9 @@ However, here is what was done currently:
 - [x] Open the file line in the code browser
 - [x] Auto-scroll to and auto-highlight the found text
 
-Compare the search results in a flat structure (the left )
-
 | Search results as a List    | Search results as a Tree    |
 | --- | --- |
-| ![](./assets/search-flat.png) | ![](./assets/search-tree.png) |
+| ![Search results as a List](./assets/search-flat.png) | ![Search results as a Tree](./assets/search-tree.png) |
 
 ## Implementation issues
 
