@@ -6,7 +6,11 @@
 
 Currently, the search results in VSCode cannot be grouped in a Tree View structure.
 
-> See the https://github.com/microsoft/vscode/issues/20224 issue that is opened for *5+* years now.
+See the https://github.com/microsoft/vscode/issues/20224 issue that is opened for *5+* years now.
+
+Let me quote *fm-swe* [[1](https://github.com/microsoft/vscode/issues/20224)] and *leo-diehl* [[2](https://stackoverflow.com/questions/54133206/any-way-to-view-vscode-find-in-files-results-organized-by-folder-hierarchy)]
+
+![](./assets/issue-01.png)
 
 ## Suggestion
 
