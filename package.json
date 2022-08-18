@@ -1,8 +1,9 @@
 {
-  "name": "search-tree",
-  "displayName": "search-tree",
-  "description": "Show search results in a tree structure",
+  "name": "vscode-search-tree",
+  "displayName": "vscode-search-tree",
+  "description": "Show VSCode search results in a tree view",
   "version": "0.0.1",
+  "author": "Oleksii Trekhleb (https://trekhleb.dev)",
   "engines": {
     "vscode": "^1.69.0"
   },
