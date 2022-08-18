@@ -2,15 +2,15 @@
 
 🔎 **(Draft!)** VSCode extension to show the search results in a tree view
 
-> The work on this extension is on-pause for now since VSCode team has put the [#20224](https://github.com/microsoft/vscode/issues/20224) issue into their *Aug-2022 iteration* [#157454](https://github.com/microsoft/vscode/issues/157454) to "Explore showing search results as a tree view". If this will be done in a VSCode core - it would be ideal solution and this extension won't be needed.
+> The work on this extension is on-pause for now since VSCode team has put the [#20224](https://github.com/microsoft/vscode/issues/20224) issue into their *"Aug-2022 iteration"* [#157454](https://github.com/microsoft/vscode/issues/157454) to "Explore showing search results as a tree view". If this will be done in a VSCode core it would be ideal solution and this extension won't be needed.
 
 ## Issue
 
-Currently, the search results in VSCode cannot be grouped in a Tree View structure (see https://github.com/microsoft/vscode/issues/20224).
+Currently, the search results in VSCode cannot be grouped in a Tree View structure. See https://github.com/microsoft/vscode/issues/20224.
 
 Let me quote some folks:
 
-> *"holy sh❋t, how can this still be missing after 5 years... back to eclipse it is"* - fm-swe [[1](https://github.com/microsoft/vscode/issues/20224)]
+> *"holy sh∗t, how can this still be missing after 5 years... back to eclipse it is"* - fm-swe [[1](https://github.com/microsoft/vscode/issues/20224)]
   
 > *"Unfortunately no."* - leo-diehl [[2](https://stackoverflow.com/questions/54133206/any-way-to-view-vscode-find-in-files-results-organized-by-folder-hierarchy)]
 
