@@ -36,9 +36,11 @@ However, here is what was done currently:
 
 ## Implementation issues
 
-- [ ] Not possible (or at least not documented): attach input field to the [TreeView](https://code.visualstudio.com/api/extension-guides/tree-view)
-- [ ] Not possible (or at least not documented): attach a custom view to the Search [view container](https://code.visualstudio.com/api/references/contribution-points#contributes.views)
-- [ ] Not possible (or at least not documented): re-use the VSCode Search [API](https://code.visualstudio.com/api/references/vscode-api)
+It is not clear (not possible, or at least not documented) how to do the following:
+
+- [ ] Attach input field to the [TreeView](https://code.visualstudio.com/api/extension-guides/tree-view)
+- [ ] Attach a custom view to the Search [view container](https://code.visualstudio.com/api/references/contribution-points#contributes.views)
+- [ ] Re-use the VSCode Search [API](https://code.visualstudio.com/api/references/vscode-api)
 
 ## TODO
 
